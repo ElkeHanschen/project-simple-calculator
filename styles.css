@@ -1,0 +1,84 @@
+/*
+I did not follow the tutorial approach to
+get rid off the button border style, create borders through "gutters".
+Following that, background-color black would then shine through via calc-container class.
+Commented out parts would follow the rest of that approach.
+I feel that would look equally ugly as it looks now, but will monitor this while continuing.
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8a8a8a;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.calc-container {
+  /*background-color: #000;*/
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 400px;
+}
+
+.calc-result-row {
+  background-color: #000; /*delete if following tutorial*/
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  padding: 15px 10px;
+  text-align: right;
+}
+
+.calc-button-row {
+  display: flex;
+  /*align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5;*/
+}
+
+/*.calc-button-row:last-child {
+    padding-bottom: 0;
+}*/
+
+.calc-button {
+  background-color: #d6d6d6;
+  cursor: pointer;
+  font-size: 40px;
+  height: 100px;
+  width: 25%; /* 24.5% */
+  /*border: none;
+    border-radius: 0;*/
+}
+.calc-button:hover {
+  background-color: #eeeeee;
+}
+
+.calc-button:active {
+  background-color: #adadad;
+}
+
+.calc-button:last-child {
+  background-color: #ff8c00;
+  color: #fff;
+}
+
+.calc-button:last-child:hover {
+  background-color: #ffb65e;
+}
+
+.calc-button:last-child:active {
+  background-color: #cc7101;
+}
+
+.calc-button.clear {
+  width: 50%; /* 49.7% */
+}
+
+.calc-button.zero {
+  width: 75%; /* 74.8% */
+}
