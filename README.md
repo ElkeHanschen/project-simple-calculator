@@ -26,9 +26,9 @@
 
 - tutorial within [Frontendmasters' Beginners Path](https://frontendmasters.com/learn/beginner/)
 - tutorial [preconditions](https://btholt.github.io/intro-to-web-dev-v2/js-project/)
-- tutorial [HTML solution](https://btholt.github.io/intro-to-web-dev-v2/calculator.html)
-- tutorial [CSS solution](https://btholt.github.io/intro-to-web-dev-v2/calculator.js)
-- tutorial [JavaScript solution](https://btholt.github.io/intro-to-web-dev-v2/calculator.css)
+- tutorial [HTML solution](https://github.com/btholt/intro-to-web-dev-v2/blob/master/static/calculator.html)
+- tutorial [CSS solution](https://github.com/btholt/intro-to-web-dev-v2/blob/master/static/calculator.css)
+- tutorial [JavaScript solution](https://github.com/btholt/intro-to-web-dev-v2/blob/master/static/calculator.js)
 
 ### How to run this?
 
